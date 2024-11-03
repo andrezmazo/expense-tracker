@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+# Expense Tracker Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación de seguimiento de gastos que incluye un frontend y un backend desarrollados en React con TypeScript y Node.js con TypeScript. La aplicación permite a los usuarios agregar, editar, eliminar y ver gastos, y también proporciona gráficos y resúmenes de gastos por categoría. La información de los gastos es añadida en un servidor de prueba creado con Render.com
 
-## Available Scripts
+La aplicación está dividida en dos partes:
 
-In the project directory, you can run:
+- **Frontend (React con TypeScript )**: Proporciona la interfaz de usuario donde los usuarios pueden gestionar sus gastos.
+- **Backend (Node.js con TypeScript)**: Proporciona una API REST para manejar las operaciones CRUD de los gastos y está desplegado en Render.com.
 
-### `npm start`
+### Enlaces importantes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Repositorio Frontend en GitHub**: [Expense Tracker](https://github.com/andrezmazo/expense-tracker.git)
+- **Repositorio Backend en GitHub**: [Expense Tracker SERVER ](https://github.com/andrezmazo/expense-tracker-SERVER.git)
+- **Aplicación desplegada (Frontend)**: [Expense Tracker Frontend en GitHub Pages](https://andrezmazo.github.io/expense-tracker/)
+- **API desplegada (Backend)**: [Expense Tracker SERVER en Render](https://expense-tracker-server-h04m.onrender.com/api/expenses)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Características
 
-### `npm test`
+- **Agregar gastos**: Permite a los usuarios agregar nuevos gastos con detalles como monto, categoría, fecha y descripción.
+- **Editar gastos**: Modificar gastos existentes.
+- **Eliminar gastos**: Eliminar gastos del registro.
+- **Visualización de gastos**: Ver la lista de gastos , totales y gráficos que resumen los gastos por categoría.
+- **Filtros**: Filtrar los gastos por categoría y fechas.
+- **Responsive Design**: Adaptable a diferentes tipos de resoluciones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Despliegue
 
-### `npm run build`
+* **Frontend** : Desplegado en GitHub Pages.
+* **Backend** : Desplegado en Render.com.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La aplicación actualmente se encuentra desplegada en [Expense Tracker Frontend en GitHub Pages](https://andrezmazo.github.io/expense-tracker/) para su prueba de funcionamientos.
+Para la configuración local seguir los pasos acontinuación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requisitos previos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Asegúrate de tener instalados los siguientes programas:
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/) (v14.x o superior)
+- [npm](https://www.npmjs.com/) o [Yarn](https://yarnpkg.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Pasos de instalación y ejecución
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clonar los repositorios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clona los repositorios de GitHub para el frontend y backend:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clonar el repositorio del frontend
+git clone https://github.com/andrezmazo/expense-tracker.git
 
-## Learn More
+# Clonar el repositorio del backend
+git clone https://github.com/andrezmazo/expense-tracker-SERVER.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Configurar el Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Accede al directorio del proyecto del frontend y sigue los pasos:
+
+```
+cd expense-tracker
+npm install  
+```
+
+### 3. Configurar el Backend
+
+Accede al directorio del proyecto del backend y sigue los pasos:
+
+```
+cd expense-tracker-SERVER
+npm install
+```
+
+### 4. Ejecutar la aplicación localmente
+
+#### Ejecutar el Backend
+
+```
+cd expense-tracker-SERVER
+npm start
+```
+
+El backend estará disponible en `http://localhost:5000`.
+
+#### Ejecutar el Frontend
+
+```
+cd expense-tracker
+npm start  # o yarn start
+```
+
+La aplicación estará disponible en `http://localhost:3000`.
+
+## Funcionamiento
+
+* **Agregar un nuevo gasto** : Rellena el formulario de gastos y envíalo.
+* **Vizualización de suma de gastos por categoría:** Permite la vizualización del total y suma por categoría
+* **Ver gráficos** : La aplicación muestra un gráfico de barras con los gastos por categoría.
+* **Listado de gastos:** Permite la vizualización de todos los gastos añadidos con sus correspondientes columnas de monto, categoría, fecha, descripción (Opcional) y botones de acción.
+* **Editar un gasto** : Selecciona un gasto existente y modifícalo.
+* **Eliminar un gasto** : Haz clic en el botón de eliminar asociado a un gasto.
+* **Filtros** : Filtra los gastos por categoría y fechas para ver resultados específicos.
+
+## Autoría
+
+Desarrollado por **Andrés Zapata Mazo**, espero sea de su agrado! **:)**
