@@ -43,7 +43,7 @@ const ExpenseChart: React.FC = () => {
 
   return (
     <div className="chart-container flex-column">
-      <h4>Resumen de Gastos</h4>
+      <h4>Visualización de Gastos</h4>
       <Bar data={data} />
     </div>
   );
