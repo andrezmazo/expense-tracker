@@ -31,6 +31,8 @@ La aplicación está dividida en dos partes:
 La aplicación actualmente se encuentra desplegada en [Expense Tracker Frontend en GitHub Pages](https://andrezmazo.github.io/expense-tracker/) para su prueba de funcionamientos.
 Para la configuración local seguir los pasos acontinuación
 
+**Importante:** El almacenamiento de los valores se dara 50 segundos luego de cargar la pagina dado el funcionamiento de las instancias gratis en [render.com](https://docs.render.com/free)
+
 ## Requisitos previos
 
 Asegúrate de tener instalados los siguientes programas:
