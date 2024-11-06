@@ -7,12 +7,15 @@ La aplicación está dividida en dos partes:
 - **Frontend (React con TypeScript )**: Proporciona la interfaz de usuario donde los usuarios pueden gestionar sus gastos.
 - **Backend (Node.js con TypeScript)**: Proporciona una API REST para manejar las operaciones CRUD de los gastos y está desplegado en Render.com.
 
+    ![1730928309685](image/README/1730928309685.png)
+
+
 ### Enlaces importantes
 
-- **Repositorio Frontend en GitHub**: [Expense Tracker](https://github.com/andrezmazo/expense-tracker.git)
-- **Repositorio Backend en GitHub**: [Expense Tracker SERVER ](https://github.com/andrezmazo/expense-tracker-SERVER.git)
 - **Aplicación desplegada (Frontend)**: [Expense Tracker Frontend en GitHub Pages](https://andrezmazo.github.io/expense-tracker/)
 - **API desplegada (Backend)**: [Expense Tracker SERVER en Render](https://expense-tracker-server-h04m.onrender.com/api/expenses)
+- **Repositorio Frontend en GitHub**: [Expense Tracker](https://github.com/andrezmazo/expense-tracker.git)
+- **Repositorio Backend en GitHub**: [Expense Tracker SERVER ](https://github.com/andrezmazo/expense-tracker-SERVER.git)
 
 ## Características
 
@@ -94,7 +97,7 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 ## Funcionamiento
 
-* **Agregar un nuevo gasto** : Rellena el formulario de gastos y envíalo.
+* **Agregar un nuevo gasto** : Rellena el formulario de gastos, envíalo y se agregara un gasto a la lista.
 * **Vizualización de suma de gastos por categoría:** Permite la vizualización del total y suma por categoría
 * **Ver gráficos** : La aplicación muestra un gráfico de barras con los gastos por categoría.
 * **Listado de gastos:** Permite la vizualización de todos los gastos añadidos con sus correspondientes columnas de monto, categoría, fecha, descripción (Opcional) y botones de acción.
