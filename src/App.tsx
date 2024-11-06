@@ -5,6 +5,7 @@ import ExpenseForm from "./components/ExpenseForm";
 import ExpenseSummary from "./components/ExpenseSummary";
 import ExpenseFilters from "./components/ExpenseFilters";
 import ExpenseChart from "./components/ExpenseChart";
+import logo from "./logo.jpg";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -29,7 +30,10 @@ const App: React.FC = () => {
   return (
     <ExpenseProvider>
       <div className="container d-flex flex-column gap-3">
-        <h1>Expense Tracker</h1>
+        <div className="d-flex gap-4 align-items-center">
+          <img src={logo} className="img-logo" alt="" />
+          <h1>EXPENSE TRACKER</h1>
+        </div>
         <ExpenseSummary />
         <ExpenseChart />
         <ExpenseForm onSubmit={handleSubmit} />
